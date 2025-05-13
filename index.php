@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Watch a movie age calculator " />
+  <meta name="description" content="Looping numbers  " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Emre Guzel" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -38,7 +38,7 @@
           <b>
             <p class="age">Enter the first Number</p>
           </b>
-          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="length-A">
+          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="first-num">
           <label class="mdl-textfield__label" for="lengthA"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
@@ -47,7 +47,7 @@
           <b>
             <p class="age"> Enter the second Number</p>
           </b>
-          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="length-B">
+          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name=" second-num">
           <label class="mdl-textfield__label" for="lengthB"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
